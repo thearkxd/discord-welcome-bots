@@ -22,6 +22,22 @@ Tada 🎉. Artık ses botların hazır. Dilediğin gibi kullanabilirsin.
   $ brew install ffmpeg
   ```
   * komutu ile FFMPEG'i kurun.
+  
+# Glitch kullananlar için;
+Eğer Glitch kullanıyorsanız ve token'larınızı `.env` (environment) dosyasına girmeniz gerekiyorsa;
+* Öncelikle `.env` dosyasında yeni bir veri oluşturup (TOKENS gibi) tüm token'larınızı **aralarında boşluk bırakarak** giriniz.
+* Daha sonra main dosyasına gelin ve;
+```js
+const { tokens, channels, staffRoles, unregisterRoles, welcomeSound, staffSound } = require("./settings.json");
+```
+* kısmını;
+```js
+const { channels, staffRoles, unregisterRoles, welcomeSound, staffSound } = require("./settings.json");
+const tokens = process.env.TOKENS.split(" ");
+```
+* olarak değiştirin
+
+Bu kadar 🎉
 
 # İletişim
 * [Discord Sunucum](https://discord.gg/UEPcFtytcc)
