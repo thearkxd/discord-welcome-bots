@@ -6,7 +6,7 @@
   * Eğer bunu yapmayı bilmiyorsan [buraya](https://medium.com/@thearkxd/node-js-projeleri-için-mongodb-atlas-connection-linki-alma-5d955bbe5ae6) tıklayarak medium.com üzerinde yazdığım yazıyı inceleyebilirsin.
 * Bu projeyi zip halinde indir.
 * Herhangi bir klasöre zipi çıkart.
-* Daha sonra `src` klasörünün içindeki configs klasörünün içine gir `settings.json` dosyasının içindeki bilgileri doldur.
+* Daha sonra `settings.json` dosyasının içindeki bilgileri doldur.
   * "tokens": [] içine istediğiniz kadar token girebilir, ve o kadar ses botu açabilirsiniz.
 * Sonra klasörün içerisinde bir `powershell` ya da `cmd` penceresi aç.
 * ```npm install``` yazarak tüm modülleri kur.
