@@ -1,4 +1,4 @@
-# Discord Chat Guard Bot
+# Discord Voice Bot(s)
 
 # Kurulum
 * İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) indir.
